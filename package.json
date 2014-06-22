@@ -1,0 +1,9 @@
+{
+  "name": "json-schema-validator",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "proxyquire": "^1.0.1",
+    "sinon": "^1.10.2",
+    "sinon-chai": "^2.5.0"
+  }
+}
