@@ -4,6 +4,8 @@
     "chai": "^1.9.1",
     "proxyquire": "^1.0.1",
     "sinon": "^1.10.2",
-    "sinon-chai": "^2.5.0"
+    "sinon-chai": "^2.5.0",
+    "gulp": "^3.8.1",
+    "gulp-mocha": "^0.4.1"
   }
 }
