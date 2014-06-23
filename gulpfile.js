@@ -23,6 +23,13 @@ gulp.task('test', function (cb) {
 });
 
 /**
+ * Watch for file changes
+ */
+gulp.task('watch', function () {
+  gulp.watch(['index.js', 'test/*.js'], ['test']);
+});
+
+/**
  * CLI tasks
  */
 gulp.task('default', ['test', 'watch']);
